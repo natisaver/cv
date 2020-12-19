@@ -13,6 +13,10 @@ body p {
 	font-family: 'Montserrat', sans-serif;
 }
 
+body li {
+	font-family: 'Montserrat', sans-serif;
+}
+
 body {
 	text-align: center;
 }
@@ -55,7 +59,7 @@ body .skills img {
 }
 
 body .skills .skill-row {
-	display: inline-block;	
+	display: block;	
 }
 
 body .contact-me img {
@@ -69,4 +73,9 @@ body .contact-me img {
 
 .contact-me a {
 	margin-top: 20px;
+}
+
+body ol {
+	text-align: left;
+	margin-left: 30%;
 }
