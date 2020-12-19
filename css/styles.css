@@ -75,7 +75,14 @@ body .contact-me img {
 	margin-top: 20px;
 }
 
-body ol {
-	text-align: left;
-	margin-left: 30%;
+.research div {
+	text-align: center;
 }
+
+ol.listofresearch {
+	display: inline-block;
+	text-align: left;
+	list-style-type: square;
+
+}
+
