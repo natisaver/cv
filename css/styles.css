@@ -4,6 +4,12 @@ body h2{
 	text-decoration: underline;
 }
 
+body h1{
+	
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: bold;
+}
+
 body h3{
 	
 	font-family: 'Ubuntu', sans-serif;
@@ -54,25 +60,23 @@ body .profile img {
 	max-width: 400px;
 }
 
-body .skills img {
-	max-width: 50px;
+body .skill-row .html img{
+	width: 50px !important;
 }
 
 body .skills .skill-row {
-	display: block;	
+	text-align:center;	
 }
 
-body .contact-me img {
-	max-width: 150px;
-}
 
 .bottom-container {
 	margin-top: 30px;
 	float: left;
 }
 
-.contact-me a {
-	margin-top: 20px;
+body .cardgallery {
+	display: flex;
+	flex-direction: row;
 }
 
 .research div {
@@ -86,3 +90,77 @@ ol.listofresearch {
 
 }
 
+body .skills .card-img-top img {
+	max-width: 185px;
+	height: 100%;
+}
+
+body .skill-row h3 {
+	margin-left: 46px;
+}
+
+body .skill-row .paper2 {
+	background-color: #ebebeb !important;
+}
+
+
+body .jumbotron .giphy{
+	display: flex;
+	flex-direction: row;
+	min-width: 1510px;
+	text-align: center;
+}
+
+body .jumbotron .giphy-two{
+	display: flex;
+	flex-direction: row;
+}
+
+body .jumbotron .giphy img {
+    margin-right: 164px;
+    height: 97px;
+    margin-top: 19px;
+}
+
+body .giphy .vl {
+	border-right:1px 
+	solid #000;
+	height:100px;
+}
+
+body .linkedin {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+
+body .linkedin img {
+	width: 20px;	
+	display: inline;
+	margin-bottom: 3px;
+}0
+
+body .linkedin button {
+	display: block;
+}
+
+body .gitty div {
+	display: inline;
+}
+
+body .gitty img:last-child {
+  display: none;  
+}
+body .gitty:hover img:last-child {
+  display: inline;  
+}
+body .gitty:hover img:first-child {
+  display: none;  
+}
+
+body .gitty button:hover img:last-child {
+  display: inline;  
+}
+body .gitty button:hover img:first-child {
+  display: none;  
+}
