@@ -6,8 +6,16 @@
 	<link rel="icon" type="text/css" href="favicon.ico">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+
+	<!-- BOOT STRAP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </head>
 <body>
+
 	<div class="middle-container">
 	  <div class="profile">
 	    <img src="https://media1.giphy.com/media/MbMUCH4MUffka1ZFeT/giphy.gif?cid=ecf05e47lsyk716oh4xq3bt9q0gxhf4vcsyjufldb46zsd1l&rid=giphy.gif" alt="profile">
@@ -17,38 +25,103 @@
 	  <hr>
 	  <div class="skills">
 	    <h2>My Skills</h2>
-	    <div class="skill-row">
-	      <img class="" src="https://media1.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif?cid=ecf05e47tnu3hea2rl2i4m78utb4tzekdqzoskcbooydarig&rid=giphy.gif" alt="">
+	    <div class="skill-row container">
+	      <img class="html" src="https://media1.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif?cid=ecf05e47tnu3hea2rl2i4m78utb4tzekdqzoskcbooydarig&rid=giphy.gif" alt="">
 	      <h3>Web Development</h3>
 	      <p>I love making websites, just like the one you are looking at now!</p>
 	      <p>My Projects:</p>
-	      	<div> <p> ➊ COVID-19 Statistics Web 😷 </p>
-			    <a class="footer-link" href="https://covid-19-tracker-fd62a.web.app/">CLICK HERE Live Build</a>
-		</div>
+
+
+
+
+	      	<div class="cardgallery"> 
+	      		<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="./images/map.png" alt="Covid Tracker IMG">
+				  <div class="card-body">
+				    <h5 class="card-title">➊ Covid-19 Tracker 😷</h5>
+				    <p class="card-text">A Web Application that tracks coronavirus cases, built with ReactJS</p>
+				    <a href="https://covid-19-tracker-fd62a.web.app/" class="btn btn-dark">Live Build</a>
+				   </div>
+				</div>
+
+	      		<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="./images/game.png" alt="Covid Tracker IMG">
+				  <div class="card-body">
+				    <h5 class="card-title">➋ Unicorn Fighters 🦄</h5>
+				    <p class="card-text">A little invaders-like game made with Python & pyGame</p>
+				    <a href="https://github.com/natisaver/UnicornFighter" class="btn btn-dark">Code</a>
+				   </div>
+				</div>
+
+	      		<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="./images/grey.png" alt="Covid Tracker IMG">
+				  <div class="card-body">
+				    <h5 class="card-title">➌ In the works 🌝</h5>
+				    <p class="card-text">Work in Progress</p>
+				    <button type="button" class="btn btn-dark" disabled>nil</button>
+				   </div>
+				</div>
+
+
+		    </div>
 	    </div>
+
+	    	<div class="jumbotron w-100 py-5 mx-auto">
+
+			  
+			  <div class="giphy">
+			  	    <div class="col-md">
+	      	    		<div class="vl"><h1 class="display-4">Greetings.</h1>
+					  		<p class="lead">You can connect with me below</p>
+						</div>
+				    </div>
+				    <div class="col-md">
+				    	<div><img src="https://media2.giphy.com/media/jnE30eFmv6DvXUHUOs/giphy.gif"></div>
+				    </div>
+			  	
+			  </div>
+			  <hr class="my-4">
+			  <div class="linkedin">
+			  	<div>
+			  	  <p>Linkedin Profile</p>
+			  	  
+			  	  <button type="button" href="https://www.linkedin.com/in/nathanielchin/" class="btn btn-outline-info">	<strong>linkedIn</strong> <img src="./images/linkedin.png"> 
+			  	  </button>
+			  	</div>
+			  	<div class="gitty">
+			  	  <p>GitHub</p>
+
+			  	  <button type="button" href="https://github.com/natisaver" class="btn btn-outline-dark"><strong>GitHub</strong> 
+			  	  	<div class="gitty">
+			  	  		<img src="./images/github.png"> 
+			  	  		<img src="./images/githubdark.png">
+			  	  	</div>
+			  	  </button>
+			  	</div>
+
+	  				  	
+			  </div>
+
+			</div>
+
+
 	    <div class="skill-row">
 	      <img class="" src="" alt="">
 	      <h3>Research Projects</h3>
 	      <div class="research">
 	      	<ol class="listofresearch">
-	      		<li>Slime Mould and A Star Search Algorithm - 2014</li>
-	      		<li>Electrohydrodynamic Properties of Liquid Film Motor - 2015</li>
-	      		<li>Spintronic Properties of Transitional Metal Ligands in Graphene - 2016 (SSEF 2017 Bronze Medal)</li>
-	      		<li>VOC-Free Water-based Paint Latex - 2017 (SSEF 2018 Silver Medal)</li>
+	      		<ul class="list-group">
+				  <li class="list-group-item">Slime Mould and A Star Search Algorithm - 2014</li>
+				  <li class="list-group-item paper2">Electrohydrodynamic Properties of Liquid Film Motor - 2015</li>
+				  <li class="list-group-item">Spintronic Properties of Transitional Metal Ligands in Graphene - 2016 <strong>(SSEF 2017 Bronze Medal)</strong></li>
+				  <li class="list-group-item paper2">VOC-Free Water-based Paint Latex - 2017 <strong>(SSEF 2018 Silver Medal)</strong></li>
+				</ul>
 	      	</ol>
 	      </div>
 	    </div>
 	  </div>
 	  <hr>
-	  <div class="contact-me">
-	    <h2>Contact Me</h2>
-	    <img src="https://media2.giphy.com/media/jnE30eFmv6DvXUHUOs/giphy.gif">
-	    <h3>You can connect with me through the platforms below.</h3>
-	    <p>I used linkedin the most though so reach out to me there.</p>
-	    <a class="btn" href="mailto:name@email.com">useless link</a>
-	    <a class="footer-link" href="https://www.linkedin.com/in/nathanielchin/">LinkedIn</a>
-	  </div>
-	</div>
+
 
 
 <div class="bottom-container">
