@@ -37,11 +37,16 @@ hr {
 
 .profile {
 	padding-top: 200px;
+	text-align: center;
 }
 
 body .profile {
 	width: 20%
 	margin: 0 auto 0 auto;
+}
+
+body .skills h2 {
+	text-align: center;
 }
 
 body .profile h2 {
@@ -62,6 +67,7 @@ body .profile img {
 
 body .skill-row .html img{
 	width: 50px !important;
+	text-align: center;
 }
 
 body .skills .skill-row {
@@ -93,11 +99,7 @@ ol.listofresearch {
 body .skills .card-img-top img {
 	max-width: 185px;
 	height: 100%;
-}
-
-body .skill-row h3 {
-	margin-left: 46px;
-}
+} 
 
 body .skill-row .paper2 {
 	background-color: #ebebeb !important;
