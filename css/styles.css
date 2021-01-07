@@ -56,19 +56,19 @@ body .iconz {
 	color: #c4ad91;
 }
 
-body .fa-react:hover {
+body .skills .html .fa-react:hover {
 	color: #749cdb;
 }
 
-body .fa-php:hover {
+body .skills .html3 .fa-php:hover {
 	color: #687ea1;
 }
 
-body .fa-python:hover {
+body .skills .html3 .fa-python:hover {
 	color: #687ea1;
 }
 
-body .fa-database:hover {
+body .skills .html .fa-database:hover {
 	color: #bd5576;
 }
 
