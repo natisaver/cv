@@ -48,6 +48,10 @@ body .skills h2 {
 	text-align: center;
 }
 
+body .skills2 h2 {
+	text-align: center;
+}
+
 body .skills .iconz {
 	color: #c4ad91 !important;
 }
@@ -101,9 +105,13 @@ body .skills .skill-box {
 	padding: 5%;
 }
 
-body .skills .skill-row {
+body .skills2 .skill-row {
 	text-align:center;	
-	background-color: #ebe2cc;
+
+}
+
+body .skills {
+	background-color: #fffcf5;
 }
 
 
@@ -128,7 +136,7 @@ ol.listofresearch {
 
 }
 
-body .skills .card-img-top img {
+body .skills2 .card-img-top img {
 	max-width: 185px;
 	height: 100%;
 } 
