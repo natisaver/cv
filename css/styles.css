@@ -52,6 +52,22 @@ body .skills .iconz {
 	color: #c4ad91 !important;
 }
 
+body .skills .fa-react:hover {
+	color: #749cdb;
+}
+
+body .skills .fa-php:hover {
+	color: #687ea1;
+}
+
+body .skills .fa-python:hover {
+	color: #687ea1;
+}
+
+body .skills .fa-database:hover {
+	color: #bd5576;
+}
+
 body .skills .html3 {
 	display: flex;
 	flex-direction: row;
