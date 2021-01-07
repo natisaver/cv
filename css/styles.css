@@ -52,23 +52,23 @@ body .skills2 h2 {
 	text-align: center;
 }
 
-body .skills .iconz {
+body .iconz {
 	color: #c4ad91 !important;
 }
 
-body .skills .fa-react:hover {
+body .fa-react:hover {
 	color: #749cdb;
 }
 
-body .skills .fa-php:hover {
+body .fa-php:hover {
 	color: #687ea1;
 }
 
-body .skills .fa-python:hover {
+body .fa-python:hover {
 	color: #687ea1;
 }
 
-body .skills .fa-database:hover {
+body .fa-database:hover {
 	color: #bd5576;
 }
 
