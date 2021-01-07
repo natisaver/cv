@@ -58,18 +58,27 @@ body .iconz {
 
 body .skills .html .fa-react:hover {
 	color: #749cdb;
+	cursor: crosshair;
 }
 
 body .skills .html3 .fa-php:hover {
 	color: #687ea1;
+	cursor: crosshair;
 }
 
 body .skills .html3 .fa-python:hover {
 	color: #687ea1;
+	cursor: crosshair;
+}
+
+body .skills .html3 .fa-java:hover {
+	color: #687ea1;
+	cursor: crosshair;
 }
 
 body .skills .html .fa-database:hover {
 	color: #bd5576;
+	cursor: crosshair;
 }
 
 body .skills .html3 {
