@@ -1,7 +1,6 @@
 body h2{
 	
 	font-family: 'Ubuntu', sans-serif;
-	text-decoration: underline;
 }
 
 body h1{
@@ -49,6 +48,16 @@ body .skills h2 {
 	text-align: center;
 }
 
+body .skills .iconz {
+	color: #c4ad91 !important;
+}
+
+body .skills .html3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 body .profile h2 {
 	font-size: 4.5rem;
 	margin-bottom: 10px;
@@ -65,9 +74,14 @@ body .profile img {
 	max-width: 400px;
 }
 
-body .skill-row .html img{
+body .skills .html img{
 	width: 50px !important;
 	text-align: center;
+}
+
+body .skills .skill-box {
+	text-align: center;
+	padding: 5%;
 }
 
 body .skills .skill-row {
@@ -107,16 +121,17 @@ body .skill-row .paper2 {
 
 
 body .jumbotron .giphy{
-	display: flex;
-	flex-direction: row;
-	min-width: 1510px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	text-align: center;
 }
 
-body .jumbotron .giphy-two{
-	display: flex;
-	flex-direction: row;
+
+
+body .jumbotron .giphy .children {
+	display: inline;
 }
+
 
 body .jumbotron .giphy img {
     margin-right: 164px;
@@ -166,3 +181,4 @@ body .gitty button:hover img:last-child {
 body .gitty button:hover img:first-child {
   display: none;  
 }
+
