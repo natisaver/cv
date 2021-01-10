@@ -7,12 +7,23 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
 
-	<!-- BOOT STRAP -->
+	    <!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	
+	
+<!-- 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+-->
 	 <!-- FONT AWESOME -->
 	 <script src="https://kit.fontawesome.com/ad101b47a4.js" crossorigin="anonymous"></script>
 
@@ -21,15 +32,50 @@
 </head>
 <body>
 
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Nathaniel 🐨</a>
+		
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#connect">Connect</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#research">Research</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#carouselExampleDark">Artwork</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
 	<div class="middle-container">
 	  <div class="profile">
 	    <img src="https://media1.giphy.com/media/MbMUCH4MUffka1ZFeT/giphy.gif?cid=ecf05e47lsyk716oh4xq3bt9q0gxhf4vcsyjufldb46zsd1l&rid=giphy.gif" alt="profile">
 	    <h2>Greetings.</h2>
 	    <p>This is my space, feel free to explore and maybe you can discover something you like!</p>
 	  </div>
-	  
+		  
 	  <div class="skills">
-	  <hr>	
+	  <hr>
 	    <h2>My Skills <i class="fas fa-code"></i> </h2> 
 	    	<div class="row">
 	    		<div class="skill-box col-lg-4 col-md-4 col-sm-12">
@@ -56,6 +102,7 @@
 	    	
 	   </div>
 
+	   <div id="projects"></div>
 
 	   <div class="skills2">
 
@@ -103,17 +150,18 @@
 
 		    </div>
 	    </div>
-
-	    	<div class="jumbotron w-100 py-5 mx-auto">
-
-			  
+			<div id='connect'></div>
+			<div  class="jumbotron bg-light p-5 rounded-lg m-3">
 			  <div class="giphy">
-			  	    <div class="col-md children">
-	      	    		<div class="vl"><h1 class="display-4">Connect.</h1>
-					  		<p class="lead">You can connect with me below</p>
-						</div>
-				    </div>
-				    <div class="col-md children">
+			  	    <div class="col-md children box1">
+						<h1 class="display-4">Connect.</h1>
+						  <p class="lead">You can connect with me below</p>	
+					</div>		
+								
+	      	    	<div class="vl col-md children">
+					</div>
+
+				    <div class="col-md children box2">
 				    	<div><img src="https://media2.giphy.com/media/jnE30eFmv6DvXUHUOs/giphy.gif"></div>
 				    </div>
 			  	
@@ -139,13 +187,13 @@
 
 	  				  	
 			  </div>
-
 			</div>
 
 
-	    <div class="skill-row">
+
+	    <div id ='research' class="skill-row">
 	      <img class="" src="" alt="">
-	      <h3>Research Projects</h3>
+	      <h3>Research Projects <i class="fas fa-microscope"></i></h3>
 	      <div class="research">
 	      	<ol class="listofresearch">
 	      		<ul class="list-group">
@@ -160,6 +208,52 @@
 	  </div>
 	  <hr>
 
+	  
+	</div>
+
+
+
+
+	<div id="carouselExampleDark" class="carousel carousel-fade carousel-dark slide" data-bs-ride="carousel">
+		<ol class="carousel-indicators">
+		  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+		  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+		  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+		  <div class="carousel-item active" data-bs-interval="10000">
+			<img src="https://instagram.fsin2-1.fna.fbcdn.net/v/t51.2885-15/e35/136097774_121838726427345_4512106764168987566_n.jpg?_nc_ht=instagram.fsin2-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=rvyvalVDKiAAX_Dk6F9&tp=1&oh=3dcf59918819882c3346182f1e90e6da&oe=60259833" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-md-block ">
+			  <h5>Artwork #1</h5>
+			  <p>Just a flower sitting on the world and chilling.</p>
+			</div>
+		  </div>
+		  <div class="carousel-item" data-bs-interval="2000">
+			<img src="https://instagram.fsin2-1.fna.fbcdn.net/v/t51.2885-15/e35/136825828_228245595501810_3925525581328154278_n.jpg?_nc_ht=instagram.fsin2-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=cMMgEJLgyIcAX8Sbd49&tp=1&oh=e8d4be25fd0d8d160ca0ad18a75839dc&oe=6024806B" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-md-block ">
+			  <h5>Artwork #2</h5>
+			  <p>Travis Scott's highest in the room but its toad.</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="https://instagram.fsin2-1.fna.fbcdn.net/v/t51.2885-15/e35/136366996_701616863870931_6950760499750149615_n.jpg?_nc_ht=instagram.fsin2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=4Te0pi1UegoAX91k1kL&tp=1&oh=cf84f518677fd9eb6b1f5aa9314962f3&oe=6022EC75" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-md-block ">
+			  <h5>Artwork #3</h5>
+			  <p>Tiger mum say need do homework.</p>
+			</div>
+		  </div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</a>
+	  </div>
+	  
+	  
 
 
 <div class="bottom-container">

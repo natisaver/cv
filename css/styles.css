@@ -37,6 +37,7 @@ hr {
 .profile {
 	padding-top: 200px;
 	text-align: center;
+	padding-bottom: 30px;
 }
 
 body .profile {
@@ -157,21 +158,26 @@ body .skill-row .paper2 {
 
 body .jumbotron .giphy{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 5fr 2fr 5fr;
 	text-align: center;
 }
 
-
-
 body .jumbotron .giphy .children {
-	display: inline;
+	display: inline-block;
+}
+
+body .jumbotron .giphy .children .box1{
+	padding-left: 20%;
+}
+
+
+body .jumbotron .giphy .children .box2{
+	padding-right: 20%;
 }
 
 
 body .jumbotron .giphy img {
-    margin-right: 164px;
     height: 97px;
-    margin-top: 19px;
 }
 
 body .giphy .vl {
@@ -217,3 +223,53 @@ body .gitty button:hover img:first-child {
   display: none;  
 }
 
+
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif !important; 
+	text-decoration: bold !important;
+}
+
+.carousel-inner img {
+	display: absolute;
+	max-height: 600px; /* max height */
+	max-width: 50%; /* take half of container */
+	right: auto; /* auto to center it */
+	left: auto;
+	left: 0; /* shift to far left */
+	margin-left: 10%;
+	object-fit: contain; /* makes the thing resize proportionately */
+
+
+}
+
+.carousel-caption.d-md-block {
+	display: absolute;
+	left: auto;
+    right: auto;
+    width: 50%;
+    bottom:0;
+	right:0;
+	padding-bottom: 25%;
+}
+
+/* bootstrap 5 navbar lousy */
+body #connect {
+	padding-top: 30px;
+}
+
+body #research {
+	padding-top: 30px;
+}
+
+
+body #projects {
+	padding-top: 40px;
+}
+
+body #carouselExampleDark {
+	padding-top: 30px;
+}
+
+.skills hr{
+	margin-bottom: 50px;
+}
