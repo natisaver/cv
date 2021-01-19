@@ -273,3 +273,26 @@ body #carouselExampleDark {
 .skills hr{
 	margin-bottom: 50px;
 }
+
+.dice {
+	display: inline-block;
+}
+
+.dice img {
+	max-width: 40%;
+}
+
+.dicechallenge {
+	margin-top: 500px;
+	margin-bottom: 200px;
+}
+
+.dicechallenge .whowin {
+	margin-top: 10px;
+	color: #BD90B4;
+	font-family: monospace;
+}
+
+.dicechallenge h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
