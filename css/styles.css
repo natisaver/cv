@@ -27,7 +27,7 @@ body {
 }
 
 hr {
-	margin-bottom: 100px
+	margin-bottom: 100px;
 }
 
 .middle-container div{
@@ -41,7 +41,7 @@ hr {
 }
 
 body .profile {
-	width: 20%
+	width: 20%;
 	margin: 0 auto 0 auto;
 }
 
@@ -196,12 +196,25 @@ body .linkedin img {
 	width: 20px;	
 	display: inline;
 	margin-bottom: 3px;
-}0
+}
+
+.btn-outline-info:hover {
+	background-color: #0083be !important;
+	color: white !important;
+}
+
+.btn-outline-info {
+	color: #0083be !important;
+	border-color: #0083be !important;
+}
 
 body .linkedin button {
 	display: block;
 }
 
+body .gitty2 div {
+	display: inline;
+}
 body .gitty div {
 	display: inline;
 }

@@ -1,0 +1,103 @@
+body h2{
+	
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body h1{
+	
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+body h3{
+	
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body h5 {
+	font-weight: bolder;
+}
+
+body p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body li {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	text-align: center;
+	background-color: #011F3F;
+  }
+  
+  #level-title {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 3rem;
+	margin:  5%;
+	color: #FEF2BF;
+  }
+  
+  hr {
+	margin-bottom: 100px
+}
+
+.middle-container div{
+	margin: 0px auto 20px auto;
+}
+
+.rulies {
+	margin-top: 190px;
+	margin-bottom: 50px;
+	display: block;
+	text-align: center;
+}
+.texties {
+	display: block;
+	margin-top: 15px;
+
+}
+
+.rowz {
+	display: block !important;
+
+}
+  
+.button {
+margin: 15px;
+display: inline-block;
+height: 150px;
+width: 150px;
+border: 10px solid black;
+border-radius: 20%;
+}
+
+.red {
+background-color: #e05a51;
+}
+
+.green {
+background-color: #c7e6aa;
+}
+
+.blue {
+background-color: #89ccd6;
+}
+
+.yellow {
+background-color: #deca66;
+}
+
+.pressed {
+box-shadow: 0 0 20px white;
+background-color: #8594B4;
+}
+  
+.bottom-container {
+	margin-top: 30px;
+}
+
+.warning {
+	color: brown;
+	font-weight: 900;
+}
