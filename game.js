@@ -6,6 +6,7 @@ var emptyArray = [];
 var start = false;
 var level = 0;
 
+
 $("#green").fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 $("#red").fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 $("#blue").fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
@@ -16,16 +17,45 @@ $(document).keypress(function() {
     if(!start){
         start = true;
         nextSequence();
+        $("#rules").text("Memorise the Order that the tiles appear")
+
     }
 });
 
 //Audio Function
 function playSound(input) {
     var audio = new Audio('./sounds/' + input + '.mp3');
-    audio.volume = 0.7
+    audio.volume = 0.7;
 
     audio.play();   
   
+}
+
+function reset() {
+    $("#title").text("YOU LOSE");
+    $("#rules").text("Press any key to restart")
+    playSound("wrong");
+    gamePattern = [];
+    emptyArray =[];
+    start = false;
+    level = 0;  
+}
+
+//Compare Game Pattern vs Empty Array, we do a compare each click
+function Compare() {
+    if(gamePattern[emptyArray.length - 1] === emptyArray[emptyArray.length - 1]){ //check each new click with gamepattern, if wrong then reset()
+        if(gamePattern.length === emptyArray.length) { //once user array same length as gamepattern:
+            if(gamePattern[gamePattern.length - 1] === emptyArray[emptyArray.length-1]){ //and if final item same on both then proceed
+                    emptyArray = []; 
+                    setTimeout(function() {
+                    nextSequence();
+                }, 700);
+            }
+        }
+}
+    else {
+        reset();
+    }
 }
 
 
@@ -87,6 +117,9 @@ $(".button").click(function() {
 
         //comparison check
         Compare();
+
+        console.log(gamePattern)
+        console.log(emptyArray)
     }
     
 
@@ -119,24 +152,6 @@ function nextSequence() {
     //reset users array
     emptyArray = [];
 
-//Compare Game Pattern vs Empty Array
-function Compare() {
-    if(gamePattern == emptyArray){
-        setTimeout(function() {
-            nextSequence();
-        }, 700);
-    }
 
-    else{
-        $("#title").text("YOU LOSE");
-        playSound(wrong);
-        gamePattern = [];
-        emptyArray =[];
-        start = false;
-
-
-    }
-
-}
 
 
