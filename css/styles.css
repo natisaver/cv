@@ -14,6 +14,10 @@ body h3{
 	font-family: 'Ubuntu', sans-serif;
 }
 
+body .icon {
+	margin-left: 5px;
+}
+
 body p {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -32,16 +36,27 @@ hr {
 
 .middle-container div{
 	margin: 0px auto 20px auto;
+
+}
+
+.middle-container {
+	background-image: url(../images/desert.png) !important;
+
+}
+.titl {
+	color: #F5B7B1;
 }
 
 .profile {
 	padding-top: 200px;
 	text-align: center;
 	padding-bottom: 30px;
+	background-color: #323232;
+	color: #F5B7B1;
 }
 
 body .profile {
-	width: 20%;
+	width: 100%;
 	margin: 0 auto 0 auto;
 }
 
@@ -49,16 +64,23 @@ body .skills h2 {
 	text-align: center;
 }
 
-body .skills2 h2 {
-	text-align: center;
-}
+
 
 body .iconz {
-	color: #c4ad91;
+	color:#c4ad91;
 }
 
-body .skills .html .fa-react:hover {
+body .skills .html2 .fa-react:hover {
 	color: #749cdb;
+	cursor: crosshair;
+}
+body .skills .html2 .fa-node:hover {
+	color: #3aaa36;
+	cursor: crosshair;
+}
+
+body .skills .html2 .fa-figma:hover {
+	color: #a036aa;
 	cursor: crosshair;
 }
 
@@ -81,7 +103,12 @@ body .skills .html .fa-database:hover {
 	color: #bd5576;
 	cursor: crosshair;
 }
-
+body .skills .html2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 150px;
+}
 body .skills .html3 {
 	display: flex;
 	flex-direction: row;
@@ -103,7 +130,7 @@ body .profile p {
 
 body .profile img {
 	max-width: 400px;
-	margin-left: -54px;
+
 }
 
 body .skills .html img{
@@ -120,9 +147,22 @@ body .skills2 .skill-row {
 	text-align:center;	
 
 }
+.row {
+	margin-bottom: 0 !important;
+	padding-bottom: 10px !important;
+}
+#projects {
+
+}
 
 body .skills {
-	background-color: #fffcf5;
+	background-color: #201820;
+	color: rgb(250, 193, 176);
+}
+
+.middle-container .skills{
+	background-color: #201820;
+	padding-top: 30px;
 }
 
 
@@ -241,6 +281,12 @@ body .gitty button:hover img:first-child {
 .navbar-brand {
 	font-family: 'Ubuntu', sans-serif !important; 
 	text-decoration: bold !important;
+	color: #FF6584 !important;
+	font-family: Montserrat !important;
+	font-style: normal !important;
+	font-weight: 600!important;
+	font-size: 25px!important;
+
 }
 
 .carousel-inner img {
@@ -271,6 +317,10 @@ body #connect {
 	padding-top: 30px;
 }
 
+.middle-container .jumbotron{
+	background-color: #333333 !important;
+	color: white;
+}
 body #research {
 	padding-top: 30px;
 }
@@ -278,6 +328,7 @@ body #research {
 
 body #projects {
 	padding-top: 40px;
+
 }
 
 body #carouselExampleDark {

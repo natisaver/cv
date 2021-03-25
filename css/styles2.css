@@ -42,8 +42,23 @@ body {
 	margin-bottom: 100px
 }
 
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif !important; 
+	text-decoration: bold !important;
+	color: #FF6584 !important;
+	font-family: Montserrat !important;
+	font-style: normal !important;
+	font-weight: 600!important;
+	font-size: 25px!important;
+
+}
+body .icon {
+	margin-left: 5px;
+}
+
 .middle-container div{
 	margin: 0px auto 20px auto;
+
 }
 
 .rulies {
